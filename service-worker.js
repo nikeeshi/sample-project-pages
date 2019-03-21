@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https;//nikeeshi.github.io/sample-project-pages/precache-manifest.806392fae3d0fa6946760fa312781a9e.js"
+  "/sample-project-pages/precache-manifest.f1f1ce8bf32939c9074055c535663eec.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https;//nikeeshi.github.io/sample-project-pages/index.html", {
+workbox.routing.registerNavigationRoute("/sample-project-pages/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
